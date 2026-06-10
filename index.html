@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI for Quantum: Algorithms &amp; Applications — Workshop Series</title>
+<meta name="description" content="An annual workshop series on AI-driven quantum algorithm discovery, generative models, and parameter transfer — co-located with IEEE Quantum Week.">
+<meta property="og:title" content="AI for Quantum: Algorithms &amp; Applications">
+<meta property="og:description" content="An annual workshop series on AI-driven quantum algorithms, co-located with IEEE Quantum Week.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="brand-mark"></span>AI4Q</a>
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="events/index.html">Events</a>
+      <a href="#topics">Topics</a>
+      <a href="#organizers">Organizers</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Workshop Series · IEEE Quantum Week</span>
+    <h1>AI for Quantum:<br>Algorithms &amp;<br>Applications</h1>
+    <p class="hero-deck">
+      An annual workshop series bringing together researchers from quantum algorithms,
+      AI&thinsp;/&thinsp;ML, HPC, and quantum engineering to advance AI-native quantum algorithm design.
+    </p>
+    <div class="cta-row">
+      <a class="btn" href="events/2026-qce/index.html">2026 Workshop →</a>
+      <a class="btn btn-outline" href="events/index.html">All editions</a>
+    </div>
+    <div class="hero-meta">
+      <div>
+        <span class="label">Current edition</span>
+        <span class="value">IEEE QCE26 · Toronto</span>
+      </div>
+      <div>
+        <span class="label">Format</span>
+        <span class="value">Full-day · 3 sessions</span>
+      </div>
+      <div>
+        <span class="label">Co-organized by</span>
+        <span class="value">NVIDIA &amp; Quantinuum</span>
+      </div>
+    </div>
+
+    <!-- decorative quantum wave -->
+    <svg class="hero-wave" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" stroke="#1a1f2e" stroke-width="0.6">
+        <path d="M0 200 Q 75 80, 150 200 T 300 200 T 450 200 T 600 200"/>
+        <path d="M0 220 Q 75 100,150 220 T 300 220 T 450 220 T 600 220"/>
+        <path d="M0 240 Q 75 120,150 240 T 300 240 T 450 240 T 600 240"/>
+        <path d="M0 260 Q 75 140,150 260 T 300 260 T 450 260 T 600 260"/>
+        <path d="M0 280 Q 75 160,150 280 T 300 280 T 450 280 T 600 280"/>
+        <path d="M0 300 Q 75 180,150 300 T 300 300 T 450 300 T 600 300"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">About</span><h2>Why this workshop</h2></div>
+      <div>
+        <p class="lead">
+          The development of practical quantum algorithms is increasingly limited not only by hardware
+          constraints, but by the difficulty of discovering, optimizing, and generalizing algorithms
+          across problem instances, system sizes, and hardware backends.
+        </p>
+        <p>
+          Artificial intelligence is rapidly emerging as a transformative tool for addressing these
+          challenges — enabling automated exploration of quantum algorithm spaces far beyond human intuition.
+          This series focuses on agentic AI for algorithm discovery, generative models for generalization,
+          and AI-driven techniques for state preparation and parameter transfer.
+        </p>
+        <p>
+          By bringing together researchers from quantum algorithms, AI&thinsp;/&thinsp;ML, HPC, and quantum
+          engineering, the workshop aims to identify common challenges, shared abstractions, and concrete
+          opportunities for collaboration, emphasizing actionable lessons, open research questions, and
+          community-driven directions for advancing AI-native quantum algorithm design.
+        </p>
+
+        <div class="callout">
+          <p>
+            <strong>Target audience:</strong> quantum algorithm researchers and developers,
+            AI/ML researchers interested in scientific discovery and generative modeling,
+            quantum software engineers, and industry practitioners working on quantum platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="topics">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Scope</span><h2>Research topics</h2></div>
+      <div>
+        <p class="lead">Each edition is structured around three thematic sessions that span the full AI × quantum pipeline.</p>
+      </div>
+    </div>
+
+    <div class="topic-grid">
+      <div class="topic">
+        <h3 style="border-top-color: var(--s1-color); color: var(--s1-color);">Agentic AI</h3>
+        <ul>
+          <li>Automated quantum circuit discovery</li>
+          <li>Reinforcement learning for algorithm design</li>
+          <li>LLM-assisted quantum program synthesis</li>
+          <li>Evolutionary and search-based methods</li>
+          <li>Hybrid agentic workflows for NISQ and FT</li>
+        </ul>
+      </div>
+      <div class="topic">
+        <h3 style="border-top-color: var(--s2-color); color: var(--s2-color);">Generative AI</h3>
+        <ul>
+          <li>Diffusion models for quantum states</li>
+          <li>Foundation models for quantum algorithms</li>
+          <li>Generalization across Hamiltonians</li>
+          <li>Data generation and augmentation</li>
+          <li>Learned ansätze for VQE &amp; QAOA</li>
+        </ul>
+      </div>
+      <div class="topic">
+        <h3 style="border-top-color: var(--s3-color); color: var(--s3-color);">Parameter Transfer &amp; Scaling</h3>
+        <ul>
+          <li>Cross-problem parameter reuse</li>
+          <li>Graph-learning for QAOA warm-starts</li>
+          <li>Transfer across hardware backends</li>
+          <li>Scalable state preparation</li>
+          <li>Resource estimation and benchmarking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="editions">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Events</span><h2>Workshop editions</h2></div>
+      <div>
+        <p class="lead">AI4Q is held annually at <a href="https://qce.quantum.ieee.org/">IEEE Quantum Week</a>.</p>
+        <div class="editions">
+          <div class="edition">
+            <span class="yr">2026</span>
+            <div class="ed-meta">
+              <strong><a href="events/2026-qce/index.html">2nd Workshop on AI for Quantum: Algorithms &amp; Applications</a></strong>
+              IEEE QCE26 · Toronto, Canada
+            </div>
+            <span class="status live">Current</span>
+          </div>
+          <div class="edition">
+            <span class="yr">2025</span>
+            <div class="ed-meta">
+              <strong><a href="events/2025-qce/index.html">1st Workshop on Recent Advances in AI for Quantum: Algorithms, Applications</a></strong>
+              IEEE QCE25 · Albuquerque, New Mexico, USA · September 5, 2025
+            </div>
+            <span class="status archived">Archived</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="organizers">
+  <div class="wrap">
+    <div class="two-col">
+      <div><span class="eyebrow">Organizers</span><h2>Steering committee</h2></div>
+      <div>
+        <p class="lead">AI4Q is organized by researchers from NVIDIA and Quantinuum.</p>
+        <p>For specific edition details and contact information, see the individual event pages.</p>
+        <p><a href="events/2026-qce/index.html#organizers">2026 organizing committee →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="font-size:1.1rem;"><span class="brand-mark"></span>AI4Q</div>
+        <p style="margin-top:.75rem; max-width:32em;">
+          AI for Quantum: Algorithms &amp; Applications. An annual workshop series at
+          IEEE Quantum Week exploring AI-driven approaches to quantum algorithm design.
+        </p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#topics">Topics</a></li>
+          <li><a href="events/index.html">All events</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Current edition</h4>
+        <ul>
+          <li><a href="events/2026-qce/index.html">AI4Q 2026</a></li>
+          <li><a href="events/2026-qce/index.html#schedule">Schedule</a></li>
+          <li><a href="events/2026-qce/index.html#speakers">Speakers</a></li>
+          <li><a href="https://qce.quantum.ieee.org/2026/" rel="noopener">IEEE QCE26 ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2025–2026 AI4Q Workshop Organizers</span>
+      <span>Source on <a href="https://github.com/ai4q-workshop/ai4q-workshop.github.io">GitHub</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
