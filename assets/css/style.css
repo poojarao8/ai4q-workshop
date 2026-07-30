@@ -341,6 +341,15 @@ nav.primary a.current {
   margin-left: .4rem;
   vertical-align: middle;
 }
+.slot .desc .talk {
+  display: block;
+  margin-top: .35rem;
+  font-size: .9rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+.slot .desc .talk.tbd { font-style: normal; color: var(--ink-mute); }
 .break-row {
   padding: .75rem 0;
   font-family: 'JetBrains Mono', monospace;
